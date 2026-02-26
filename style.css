@@ -98,9 +98,7 @@ body {
 
 .hero__footer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   gap: 2rem;
   color: #fafafa;
   font-size: clamp(0.875rem, 1.5vw + 0.5rem, 1rem);
@@ -218,7 +216,7 @@ body {
 
   .hero__footer {
     flex-direction: column;
-    text-align: center;
+    justify-content: start;
   }
 
   .news__card {
